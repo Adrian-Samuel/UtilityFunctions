@@ -4,7 +4,7 @@ const checkArrayforDup = (array) => {
     let myMap = new Map();
     array.map(num => {
         if (myMap.has(num)) {
-            let curr = myMap.get(num); /* ? */
+            let curr = myMap.get(num); 
             myMap.set(num, curr + 1);
         } else {
             myMap.set(num, 1);
