@@ -11,8 +11,8 @@ const checkArrayforDup = (array) => {
         }
     });
     
-    let dupList = [...myMap].filter(x =>Array.from(x)[1] > 1); /* ? */
-    const report = dupList.map(x=>{ return {duplicatedNumber: x[0], appears: `${x[1]} times`}}); /* ? */
+    let dupList = [...myMap].filter(x =>Array.from(x)[1] > 1); 
+    const report = dupList.map(x=>{ return {duplicatedNumber: x[0], appears: `${x[1]} times`}}); 
     return report;
 };
 
