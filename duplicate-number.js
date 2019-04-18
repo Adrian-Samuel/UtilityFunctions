@@ -19,7 +19,15 @@ const checkArrayforDup = (array) => {
 //check
 
 let list = [1, 2, 4, 76, 5, 5, 6, 76, 6];
-checkArrayforDup(list); /* ? */
+checkArrayforDup(list); 
+
+/*
+Returns
+[ { duplicatedNumber: 76, appears: '2 times' }, 
+  { duplicatedNumber: 5, appears: '2 times' }, 
+  { duplicatedNumber: 6, appears: '2 times' } ] 
+
+*/
 
 
 
