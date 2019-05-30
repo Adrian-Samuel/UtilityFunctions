@@ -1,4 +1,4 @@
-Functions that takes in two parameters, the araay of objects and the key you want to check data by and returns a unique list of filtered objects
+//A Function that takes in two parameters, the araay of objects and the key you want to check data by and returns a unique list of filtered objects
 
 //ReadableFunction
 
